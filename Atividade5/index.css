@@ -2,7 +2,7 @@ div{
     width: 500px;
     height: 500px;
     display: flex;
-    align-items:center
+    align-items:center;
 }
 
 h2{
@@ -19,7 +19,6 @@ h2{
     }
 
     h2::before{
-        color: #0000;
         content: "Cinza";
     }
 
@@ -34,7 +33,6 @@ h2{
 
 
     h2::before{
-        color: #0000;
         content: "Laranja";
     }
 }
@@ -46,7 +44,6 @@ h2{
     }
 
     h2::before{
-        color: #0000;
         content: "Rosa";
     }
 
@@ -59,7 +56,6 @@ h2{
     }
 
     h2::before{
-        color: #0000;
         content: "Vermelho";
     }
 }
@@ -70,7 +66,6 @@ h2{
         background-color: #990f8d;
     }
     h2::before{
-        color: #0000;
         content: "Roxo";
     }
 
@@ -82,7 +77,6 @@ h2{
         background-color: #f3ce2b;
     }
     h2::before{
-        color: #0000;
         content: "Amarelo";
     }
 
@@ -94,7 +88,6 @@ h2{
         background-color: #42f32b;
     }
     h2::before{
-        color: #0000;
         content: "Verde";
     }
 
