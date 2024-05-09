@@ -1,0 +1,15 @@
+h1{
+
+    padding-bottom: 0px;
+    padding-left: 300px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(146, 111, 65);
+}
+
+.imagem{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 5000px;
+    padding-left: 500px;
+}
