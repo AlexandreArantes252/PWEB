@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: black;
+    display: flex;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.imagem{
+    position: absolute;
+    top: 3px;
+    padding-left: 40px;
+    padding-top: 40px;
+    background-color: black;
+}
+
+.imagem2 img {
+    width: 100%;
+    height: auto; 
+}
+
+
+.imagem2{
+    position: fixed;
+    top: 50px;
+    right: -150px;
+    width: 980px;
+    z-index: 1;
+}
+.imagem2 img {
+    width: 100%; 
+    height: auto; 
+}
+
+
+.quadrado {
+    position: absolute; 
+    top: 170px; 
+    left: 40px; 
+    width: 20px; 
+    height: 20px; 
+}
+
+.quadrado img {
+    width: 100%; 
+    height: auto; 
+}
+
+.quadrado2 {
+    position: absolute;
+    bottom: 229px; 
+    left: 950px; 
+    width: 20px; 
+    height: 20px; 
+    z-index: 2;
+}
+
+.quadrado2 img {
+    width: 100%; 
+    height: auto; 
+}
+
+.quadrado3 {
+    position: absolute;
+    top: 600px;
+    left: 1765px; 
+    width: 20px; 
+    height: 20px; 
+    z-index: 2;
+}
+
+.quadrado3 img {
+    width: 100%; 
+    height: auto; 
+}
+
+.mais {
+    position: fixed;
+    top: 560px; 
+    left: 1000px; 
+    width: 800px; 
+    height: 600px; 
+    z-index: 2;
+}
+
+.mais img {
+    width: 100%; 
+    height: auto; 
+}
+
+
+
+section{
+    background-color: black;
+    color: white;
+}
+
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;  
+    margin-top: 150px;  
+    margin-left: 90px;
+    line-height: 1;
+    z-index: 2;
+}
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;  
+    text-align: justify; 
+    position: fixed;
+    top: 180px;
+    left: 900px;
+    z-index: 2;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px; 
+    margin-top: 300px; 
+    margin-left: 45px; 
+}
+
+
+.texto{
+    display: flex;
+    align-items: center
+}
+
+button {
+    display: inline-block;
+    padding: 15px 100px;
+    margin-left: 1130px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: 235px;
+    overflow: visible;
+    z-index: 2;
+    transition: transform 0.5s ease;
+  }
+
+  button:hover {
+    background-color: #616161;
+    transform: scale(1.1);
+  }
+@media (max-width: 1800px) and (min-width: 1498px) {
+    .mais {
+        top: 460px; 
+        left: 900px; 
+        width: 600px; 
+        height: 500px; 
+    }
+    h1 {
+        font-size: 130px;
+        margin-top: 190px;
+        margin-left: 100px;
+    }
+    h3 {
+        font-size: 12px;
+        top: 220px;
+        left: 800px;
+    }
+    button {
+        margin-left: 800px;
+        top: 200px;
+    }
+    .quadrado{
+        top: 210px;
+    }
+    .quadrado3{
+        top: 490px;
+        left: 1465px;
+    }
+    .quadrado2{
+        top: 1022px;
+        left: 690px;
+    }  
+}
+
+@media (max-width: 1497px) and (min-width: 769px){
+    .mais {
+        top: 460px; 
+        left: 780px; 
+        width: 600px; 
+        height: 500px; 
+    }
+    h1 {
+        font-size: 110px;
+        margin-top: 190px;
+        margin-left: 100px;
+    }
+    h3 {
+        font-size: 12px;
+        top: 210px;
+        left: 700px;
+    }
+    button {
+        margin-left: 650px;
+        top: 200px;
+    }
+    .quadrado{
+        top: 205px;
+    }
+    .quadrado3{
+        top: 490px;
+        left: 1340px;
+    }
+    .quadrado2{
+        top: 982px;
+        left: 540px;
+    }  
+}
+
+
+@media (max-width: 768px) and (min-width: 481px) {
+    .imagem {
+        padding-left: 20px;
+        padding-top: 20px;
+        position: fixed;
+    }
+
+    .quadrado {
+        top: 120px;
+        left: 120px;
+        position: fixed;
+    }
+
+    .quadrado2 {
+        bottom: 180px;
+        left: 200px;
+        position: fixed;
+    }
+
+    .quadrado3 {
+        top: 480px;
+        left: 640px;
+        position: fixed;
+    }
+
+    .mais {
+        top: 450px;
+        left: 10%;
+        width: 80%;
+        position: fixed;
+    }
+
+    h1 {
+        font-size: 100px;
+        margin-top: 100px;
+        margin-left: 170px;
+    }
+
+    h3 {
+        font-size: 12px;
+        top: 350px;
+        left: 200px;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-top: 300px;
+        margin-left: 80px;
+    }
+
+    button {
+        top: 400px;
+        margin-left: 400px;
+        transform: translateX(-50%);
+        
+    }
+}
+
+@media (max-width: 480px) {
+    .imagem {
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .imagem2 {
+        width: 700px;
+        z-index: 1;
+    }
+
+    .quadrado {
+        top: 100px;
+        left: 50px;
+        width: 15px;
+    }
+
+    .quadrado2 {
+        bottom: 350px;
+        left: 80px;
+        width: 15px;
+    }
+
+    .quadrado3 {
+        top: 425px;
+        left: 420px;
+        width: 15px;
+    }
+
+    .mais {
+        top: 400px;
+        left: 5%;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 70px;
+        margin-top: 90px;
+        margin-left: 90px;
+    }
+
+    h3 {
+        font-size: 10px;
+        top: 270px;
+        left: 140px;
+        right: 5%;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-top: 270px;
+        margin-left: 60px;
+    }
+
+    button {
+        margin-left: 250px;
+        transform: translateX(-50%);
+        top: 300px;
+    }
+}
